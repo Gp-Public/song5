@@ -9,8 +9,8 @@
         "pyrogram"
     ],
     "website": "https://t.me/logi_channel",
-    "repository": "https://github.com/LOGI-LAP/music-video-streamer",
-    "success_url": "https://t.me/cl_me_logesh",
+    "repository": "https://github.com/Gp-Public/song5",
+    "success_url": "https://t.me/Gplove_Rp",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -62,7 +62,7 @@
         "ALIVE_NAME": {
             "description": " Enter your name ! ",
             "required": true,
-            "value": "➳ᴹᴿ✿࿐𝑳𝑶𝑮𝑬𝑺𝑯⏤͟͟͞͞★"
+            "value": "Gp"
         }
     },
     "addons": [],
