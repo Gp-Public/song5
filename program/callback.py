@@ -18,36 +18,36 @@ async def cbstart(_, query: CallbackQuery):
         f"""✨ **Welcome [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
 💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) allows you to play music and video on groups through the new Telegram's video chats!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+💡 **Find out all the Bot's commands and how they work by clicking on the » 📝 Commands button!**
 
 
-🛠 [🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂](https://t.me/cl_me_logesh) **if you have any problem contact**
+🛠 [👑𝙋𝙍𝘼𝙈𝙔𝘼𝙑𝙄𝙉𝘾𝙔👑](https://t.me/Gplove_Rp) **if you have any problem contact**
 
-❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
+❔ **To know how to use this bot, please click on the » 🤔 Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("🤔 Basic Guide", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤ owner", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("📝 Commands", callback_data="cbcmds"),
+                    InlineKeyboardButton("👑 owner", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
                         "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📢 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂", url="https://t.me/cl_me_logesh"
+                        "𝙍𝙊𝙎𝙄", url="https://t.me/Rosiultra_bot"
                     )
                 ],
             ]
@@ -65,7 +65,7 @@ async def cbguides(_, query: CallbackQuery):
 2.) **then promote me as admin and give all permissions except anonymous admin.**
 3.) **add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.**
 4.) **turn on the video chat first before start to play video.**
-5.) **all the command list you can see on » 📚 Commands button, find it on start home, tap the » Go Back button below.**
+5.) **all the command list you can see on » 📝 Commands button, find it on start home, tap the » Go Back button below.**
 
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
@@ -79,7 +79,7 @@ async def cbguides(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbcmds"))
 async def cbhelps(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""📚 Here is the Commands list:
+        f"""📝 Here is the Commands list:
 
 » /play - play music on voice chat
 » /stream - enter the radio link
