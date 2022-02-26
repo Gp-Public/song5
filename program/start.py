@@ -56,37 +56,37 @@ async def start_(client: Client, message: Message):
         f"""✨ **Welcome {message.from_user.mention()} !**\n
 💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) allows you to play music and video on groups through the new Telegram's video chats!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+💡 **Find out all the Bot's commands and how they work by clicking on the » 📝 Commands button!**
 
-🛠 [🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂](https://t.me/cl_me_logesh) ** if you have any problems contact 💚**
+🛠 [👑𝙋𝙍𝘼𝙈𝙔𝘼𝙑𝙄𝙉𝘾𝙔👑](https://t.me/Gplove_Rp) ** if you have any problems contact 👑**
 
 ❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("🕊.⋆ Basic Guide༒۝꧂", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("☆ 𝘽𝘼𝙎𝙄𝘾 𝙂𝙐𝙄𝘿𝙀 ☆", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("🕊.⋆Commands༒۝꧂", callback_data="cbcmds"),
-                    InlineKeyboardButton("🕊.⋆Owner༒۝꧂", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("★ 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 ★", callback_data="cbcmds"),
+                    InlineKeyboardButton("𓅓 𝙊𝙒𝙉𝙀𝙍 𓅓", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🕊.⋆official Group༒۝꧂", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✰ 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝙂𝙍𝙊𝙐𝙋 ✰", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🕊.⋆official channel༒۝꧂", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "✯ 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 ✯", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
 
        
                     InlineKeyboardButton(
-                        "🕊.⋆source code༒۝꧂", url="https://github.com/LOGI-LAP/music-video-streamer"
+                        "✵ 𝙎𝙊𝙐𝙍𝘾𝙀 𝘾𝙊𝘿𝙀 ✵", url="https://t.me/TeamRosi"
                     )
                 ],
             ]
@@ -108,7 +108,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "📢 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
