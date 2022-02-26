@@ -58,21 +58,22 @@ async def start_(client: Client, message: Message):
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📝 Commands button!**
 
-🛠 [👑𝙋𝙍𝘼𝙈𝙔𝘼𝙑𝙄𝙉𝘾𝙔👑](https://t.me/Gplove_Rp) ** if you have any problems contact 👑**
+🛠 [👑𝙋𝙍𝘼𝙈𝙔𝘼𝙑𝙄𝙉𝘾𝙔👑] (https://t.me/Gplove_Rp) ** if you have any problems contact ⚡
+⚡**
 
 ❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕",
+                        "➕𓅓 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 𓅓➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("☆ 𝘽𝘼𝙎𝙄𝘾 𝙂𝙐𝙄𝘿𝙀 ☆", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("★ 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 ★", callback_data="cbcmds"),
-                    InlineKeyboardButton("𓅓 𝙊𝙒𝙉𝙀𝙍 𓅓", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("☼︎ 𝙊𝙒𝙉𝙀𝙍 ☼︎", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
